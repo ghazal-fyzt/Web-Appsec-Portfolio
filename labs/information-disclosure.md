@@ -1,4 +1,4 @@
-# Information Disclosure — Exploitation Notes
+# Information Disclosure 
 
 **Scope:** Exploitation only. 
 **What it is:** Exposing data that shouldn’t be accessible (stack traces, source/backup files, version banners, internal paths, credentials, etc.). 
