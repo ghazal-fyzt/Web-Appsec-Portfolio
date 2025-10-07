@@ -6,8 +6,13 @@ so i say start with information disclosure:
 
 test /robots.txt
 
-test feroxbuster for hidden files.
+test feroxbuster for hidden files. 
+
+feroxbuster -u https://TARGET -w [wordlist path] -t 50 --insecure -s 200,301,302,401,403 -f --redirects --proxy http://127.0.0.1:8080
+
+Recommended Wordlist: GitHub-Link
+
 
 look at the url, look for anything you can change(an obvious indicator is equal sign) and observe the behaviour of website.
---
+
 Next we have broken access control:
