@@ -15,4 +15,12 @@ Recommended Wordlist: GitHub-Link
 
 look at the url, look for anything you can change(an obvious indicator is equal sign) and observe the behaviour of website.
 
-Next we have broken access control:
+broken access:
+
+
+at the end of the day no matter the backend language everything will be renderd in html so the site can understand it therefore an important part is to always checkthe html code.
+
+X-Original-URL: if the app trusts this header from the client, an attacker can influence routing, redirects, caching, or access checks — leading to open redirects, cache poisoning, or incorrect access decisions.
+ex: X-Original-URL: /admin
+
+
